@@ -1,0 +1,29 @@
+.Poster {
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    overflow-wrap: break-word;
+    display: inline-block;
+    max-width: 20rem;
+    margin: 3rem;
+    font-size: 1rem;
+    text-decoration: none;
+    overflow: hidden;
+    box-shadow: 0 0 3rem -1rem rgba(0,0,0,0.5);
+    transition: transform 0.1s ease-in-out, box-shadow 0.1s
+}
+
+.Poster img {
+    height: 450px;
+    display: block;
+    width: 100%;
+}
+
+.Poster:hover{
+    transform: translateY(-0.5rem) scale(1.0125);
+    box-shadow: 0 0.5em 3rem -1rem rgba(0,0,0,0.5);
+}
+
+.Poster h3,h5{
+    margin: 0 0 0.5em;
+}

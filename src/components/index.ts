@@ -1,0 +1,7 @@
+export * from './HeaderContainer/Header/Header'
+export * from './MoviesContainer/Movies/Movies'
+export * from './MoviesContainer/MoviePoster/MoviePoster'
+export * from './MoviesContainer/MovieDetails/MovieDetails'
+export * from './GenresContainer/Genres/Genres'
+export * from './Pagination/Pagination'
+export * from './SearchContainer/Search'
